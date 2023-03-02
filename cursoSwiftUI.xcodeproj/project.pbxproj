@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8273C06429AD0C1200744900 /* cursoSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C06329AD0C1200744900 /* cursoSwiftUIApp.swift */; };
-		8273C06629AD0C1200744900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C06529AD0C1200744900 /* ContentView.swift */; };
+		8273C06629AD0C1200744900 /* DriverDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C06529AD0C1200744900 /* DriverDetail.swift */; };
 		8273C06829AD0C1400744900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8273C06729AD0C1400744900 /* Assets.xcassets */; };
 		8273C06B29AD0C1400744900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8273C06A29AD0C1400744900 /* Preview Assets.xcassets */; };
 		8273C07529AD0C1400744900 /* cursoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C07429AD0C1400744900 /* cursoSwiftUITests.swift */; };
 		8273C07F29AD0C1400744900 /* cursoSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C07E29AD0C1400744900 /* cursoSwiftUIUITests.swift */; };
 		8273C08129AD0C1400744900 /* cursoSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C08029AD0C1400744900 /* cursoSwiftUIUITestsLaunchTests.swift */; };
+		8273C08E29AF6AC100744900 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C08D29AF6AC100744900 /* Driver.swift */; };
+		8273C09029AF805000744900 /* StatsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C08F29AF805000744900 /* StatsRow.swift */; };
+		8273C09229AFCC3B00744900 /* DriverRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C09129AFCC3B00744900 /* DriverRow.swift */; };
+		8273C09429AFD40100744900 /* DriversList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8273C09329AFD40100744900 /* DriversList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		8273C06029AD0C1200744900 /* cursoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cursoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8273C06329AD0C1200744900 /* cursoSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursoSwiftUIApp.swift; sourceTree = "<group>"; };
-		8273C06529AD0C1200744900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8273C06529AD0C1200744900 /* DriverDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverDetail.swift; sourceTree = "<group>"; };
 		8273C06729AD0C1400744900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8273C06A29AD0C1400744900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8273C07029AD0C1400744900 /* cursoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cursoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +48,10 @@
 		8273C07A29AD0C1400744900 /* cursoSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cursoSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8273C07E29AD0C1400744900 /* cursoSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursoSwiftUIUITests.swift; sourceTree = "<group>"; };
 		8273C08029AD0C1400744900 /* cursoSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursoSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8273C08D29AF6AC100744900 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		8273C08F29AF805000744900 /* StatsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsRow.swift; sourceTree = "<group>"; };
+		8273C09129AFCC3B00744900 /* DriverRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverRow.swift; sourceTree = "<group>"; };
+		8273C09329AFD40100744900 /* DriversList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriversList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				8273C06329AD0C1200744900 /* cursoSwiftUIApp.swift */,
-				8273C06529AD0C1200744900 /* ContentView.swift */,
+				8273C06529AD0C1200744900 /* DriverDetail.swift */,
+				8273C08D29AF6AC100744900 /* Driver.swift */,
+				8273C09329AFD40100744900 /* DriversList.swift */,
+				8273C09129AFCC3B00744900 /* DriverRow.swift */,
+				8273C08F29AF805000744900 /* StatsRow.swift */,
 				8273C06729AD0C1400744900 /* Assets.xcassets */,
 				8273C06929AD0C1400744900 /* Preview Content */,
 			);
@@ -257,8 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8273C06629AD0C1200744900 /* ContentView.swift in Sources */,
+				8273C09029AF805000744900 /* StatsRow.swift in Sources */,
+				8273C08E29AF6AC100744900 /* Driver.swift in Sources */,
+				8273C06629AD0C1200744900 /* DriverDetail.swift in Sources */,
+				8273C09429AFD40100744900 /* DriversList.swift in Sources */,
 				8273C06429AD0C1200744900 /* cursoSwiftUIApp.swift in Sources */,
+				8273C09229AFCC3B00744900 /* DriverRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct cursoSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DriversList()
         }
     }
 }
